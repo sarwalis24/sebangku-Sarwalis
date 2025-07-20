@@ -14,7 +14,7 @@
     "themesberg"
   ],
   "license": "MIT",
-  "homepage": "https://demo.themesberg.com/volt-react-dashboard",
+  "homepage": ".",
   "bugs": {
     "url": "https://github.com/themesberg/volt-react-dashboard/issues"
   },
@@ -53,7 +53,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "build-local": "PUBLIC_URL=./ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
